@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="51">
+    <author>Alex Shaw</author>
+    <version>1.0.0.0</version>
+    <title>
+        <de>Telemetrieausgabe</de>
+        <en>Telemetry output</en>
+        <fr>Sortie de télémétrie</fr>
+    </title>
+    <description>
+<de>
+<![CDATA[Dieses Skript gibt alle Fahrzeuge x y z, Peilung, Geschwindigkeit und Namen aus und speichert es in demselben Verzeichnis, in dem das Spiel installiert ist, C:\Program Files (x86)\Steam\steamapps\common\Farming Simulator 19\Telemetryoutput.txt ]]>
+</de>
+<en>
+<![CDATA[This script outputs every vehicles x y z, bearing, speed, and name, it saves in the same directory the game is installed, example, C:\Program Files (x86)\Steam\steamapps\common\Farming Simulator 19\Telemetryoutput.txt ]]>
+</en>
+<fr>
+<![CDATA[T
+Ce script affiche tous les véhicules x y z, le relèvement, la vitesse et les noms et les enregistre dans le même répertoire où le jeu est installé., C:\Program Files (x86)\Steam\steamapps\common\Farming Simulator 19\Telemetryoutput.txt ]]>
+</fr>
+    </description>
+    <iconFilename>icon_telemetry.dds</iconFilename>
+    <multiplayer supported="true"/>
+     <extraSourceFiles>
+        <sourceFile filename="telemetry.lua"/>
+    </extraSourceFiles>
+</modDesc>
